@@ -2,5 +2,8 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Printf("hello world")
+    fmt.Println("hello world")
+    var myvar int
+    myvar = 5
+    fmt.Println(myvar)
 }
